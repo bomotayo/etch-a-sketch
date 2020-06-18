@@ -6,7 +6,9 @@ h1,h4{
   width:  80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
+  margin-top: 1%;
+  height: 500px;
+  margin-bottom: 30px;
   border: 1px solid black;
 }
 .grid-item{
@@ -27,4 +29,16 @@ h1,h4{
 
 #grid-btn{
   margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  #clr-btn,#grid-btn{
+    padding: 10px;
+    font-size: 15px;
+    width:  50%; 
+  }
+  .container{
+    width: 100%;
+    height: 350px;
+  }
 }
